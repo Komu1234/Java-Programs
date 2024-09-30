@@ -1,3 +1,4 @@
+package PremitiveDataTypes;
 public class NumericChar {
   public static void main(String[] args) {
     int i = 1_234_4567;

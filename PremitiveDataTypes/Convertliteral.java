@@ -1,3 +1,4 @@
+package PremitiveDataTypes;
 public class Convertliteral {
   static int i = 10;
   static int hex = 0xa;
@@ -10,3 +11,4 @@ public class Convertliteral {
     System.out.println(octa);
   }
 }
+  

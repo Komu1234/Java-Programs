@@ -1,3 +1,4 @@
+package PremitiveDataTypes;
 public class PrintDefault{
   static int i;
   static byte by;
