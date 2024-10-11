@@ -1,5 +1,6 @@
 package PremitiveDataTypes;
-public class PrintDefault{
+
+public class PrintDefault {
   static int i;
   static byte by;
   static short sh;
@@ -9,8 +10,9 @@ public class PrintDefault{
   static char c;
   static boolean b1;
   static String s;
+
   public static void main(String[] args) {
-    
+
     System.out.println(i);
     System.out.println(by);
     System.out.println(l);
