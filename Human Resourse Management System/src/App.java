@@ -16,5 +16,6 @@ public class App {
     
        SalesManager SM=new SalesManager("Komal", "Chaudhari", 10, 30, 730, 05, 30000, 2, 30000,totalSales);
        SM.calculateComission();
+       SM.PrintDetails();
     }
 }

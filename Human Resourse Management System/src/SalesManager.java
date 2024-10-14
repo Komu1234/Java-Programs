@@ -27,7 +27,7 @@ public class SalesManager extends SalesRep {
     System.out.println("Year Worked: "+yearsWorked);
     System.out.println("Vacation Days: "+vacationDaysTaken);
     System.out.println("Salary: "+salary);
-    System.out.println("Sales Made: "+SalesRep.getSalesMade());
+  
 
   }
 
