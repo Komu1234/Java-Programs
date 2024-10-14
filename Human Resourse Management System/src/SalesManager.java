@@ -12,11 +12,16 @@ public class SalesManager extends SalesRep {
 
 
 
+  
   public SalesManager(String firstName, String lastName, int registration, int age, int daysWorked, int yearsWorked,
-      int vacationDaysTaken, double salary, double salesMade, double salesByTeam) {
-    super(firstName, lastName, registration, age, daysWorked, yearsWorked, vacationDaysTaken, salary, salesMade);
+      int vacationDaysTaken, double salary, String userName, String password, double salesMade, double salesByTeam) {
+    super(firstName, lastName, registration, age, daysWorked, yearsWorked, vacationDaysTaken, salary, userName,
+        password, salesMade);
     this.salesByTeam = salesByTeam;
   }
+
+
+
 
   public void PrintDetails(){
     System.out.println("First Name: "+firstName);
